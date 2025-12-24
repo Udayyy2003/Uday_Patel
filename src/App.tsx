@@ -6,8 +6,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { ThemeProvider } from "./components/ThemeProvider";
-import './index.css';
-import './app.css';
+import '/index.css';
+import '/app.css';
 
 // Pages
 import Index from "./pages/Index";
