@@ -30,65 +30,54 @@ const Resume = () => {
 
   const education = [
     {
-      institution: "Presidency University, Bengaluru",
-      degree: "Bachelor of Technology (B.Tech)",
-      field: "Computer Science & Engineering (AI & ML)",
-      duration: "2021 - 2025",
+      institution: "K N University, Ahmedabad",
+      degree: "Bachelor of Computer Applications (BCA)",
+      field: "Computer Science & Engineering",
+      duration: "2023 - 2026",
       gpa: "3.0/4.0",
-      location: "Bengaluru, India",
+      location: "Ahmedabad, India",
     },
     {
-      institution: "MES Kishora Kendra, Bengaluru",
-      degree: "Pre-University College",
+      institution: "K R Raval UCCH , Ahmedabad",
+      degree: "HSC",
       field: "Science Stream",
       duration: "2019 - 2021",
-      gpa: "85%",
-      location: "Bengaluru, India",
+      gpa: "78%",
+      location: "Ahmedabad, India",
     },
   ];
 
   const experience = [
     {
-      position: "Freelance Developer",
-      company: "Self-employed",
-      duration: "January 2023 - Present",
-      description: "Working as a freelance developer on various projects, specializing in web development and AI solutions.",
+      position: "Junior Software developer",
+      company: "Vaxa Infotech",
+      duration: "May 2025 - July 2025",
+      description: "Working as a Junior Software developer on various projects , specializing in Creating POC's For upcoming projects with the help of AI technologiesx.",
       responsibilities: [
-        "Developed full-stack web applications for clients using React, Node.js, and MongoDB",
-        "Created AI-powered solutions for data analysis and automation",
-        "Managed project timelines and client communication",
+        "Proof of Concept (POC) Development",
+        "Backend Development Using Flask",
+        "Python-Based AI / Logic Implementation",
         "Integrated AI tools into development workflows for improved efficiency"
       ]
     },
     {
-      position: "Web Developer Intern",
-      company: "SkillCraft Technologies",
-      duration: "November 2024 - December 2024",
-      description: "Developed and maintained web applications using React.js and Node.js. Collaborated with senior developers to implement new features and fix bugs.",
+      position: "Student Intern",
+      company: "K N University",
+      duration: "Aprill 2024 - July 2024",
+      description: "• Engaged as a student intern at my university, contributing to industry-aligned projects involving data analysis and monitoring, whiledeveloping strong practical skills in data management and tech applications",
       responsibilities: [
-        "Developed responsive front-end interfaces using React.js",
-        "Implemented RESTful APIs using Node.js and Express",
-        "Participated in code reviews and team meetings",
+          "Assisted in collecting, cleaning, and organizing datasets for ongoing research projects, ensuring data accuracy and consistency across multiple sources",
+         "Supported the development and maintenance of monitoring dashboards using spreadsheet tools and basic visualization software to track project metrics",
+        "Collaborated with faculty advisors and team members to document technical processes, prepare progress reports.",
         "Optimized applications for maximum speed and scalability"
       ]
     },
-    {
-      position: "Open Source Contributor",
-      company: "GitHub Community",
-      duration: "January 2022 - Present",
-      description: "Actively contributed to various open-source projects, focusing on web development and machine learning libraries.",
-      responsibilities: [
-        "Fixed bugs and implemented new features in popular repositories",
-        "Collaborated with developers worldwide through pull requests",
-        "Improved documentation for better user experience",
-        "Participated in code reviews and discussions"
-      ]
-    },
+    
   ];
 
   const projects = [
     {
-      title: "Income Tax Fraud Detection",
+      title: "Resume Parsing",
       description: "Developed an AI-powered system to detect fraudulent activities in income tax filings using machine learning algorithms and data pattern analysis.",
       technologies: ["Python", "Machine Learning", "AI", "Data Analysis", "TensorFlow"],
       duration: "03/2023 - 04/2023",
@@ -100,7 +89,7 @@ const Resume = () => {
       ]
     },
     {
-      title: "Oral Cancer Detection",
+      title: "Robotic Interview System",
       description: "Built a deep learning model to detect and classify oral cancer stages from medical images, helping in early diagnosis and treatment planning.",
       technologies: ["Python", "TensorFlow", "Neural Networks", "Computer Vision", "OpenCV"],
       duration: "05/2023 - 08/2023",
@@ -112,7 +101,7 @@ const Resume = () => {
       ]
     },
     {
-      title: "Object Tracking using OpenCV",
+      title: "Ai chat bot",
       description: "Developed an object detection and tracking system using OpenCV and KCF Tracker that can identify and follow objects in video streams.",
       technologies: ["Python", "OpenCV", "Computer Vision", "AI"],
       duration: "03/2023 - 04/2023",
@@ -124,7 +113,7 @@ const Resume = () => {
       ]
     },
     {
-      title: "Credit Card Fraud Detection",
+      title: "xyz",
       description: "Created a machine learning model to analyze whether credit card transactions are fraudulent by identifying unusual patterns and anomalies.",
       technologies: ["Python", "Machine Learning", "Data Science", "Statistical Analysis"],
       duration: "01/2023 - 03/2023",
@@ -136,7 +125,7 @@ const Resume = () => {
       ]
     },
     {
-      title: "Contextualized Topic Modeling",
+      title: "abc",
       description: "Built a Python package to run contextualized topic modeling with BERT embeddings, enabling more accurate text analysis and categorization.",
       technologies: ["Python", "NLP", "BERT", "Machine Learning"],
       duration: "11/2022 - 01/2023",

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { ArrowRight, Code, Database, FileCode, Server, Terminal, GitBranch, Globe, Tv } from "lucide-react";
+import { ArrowRight, Code, Database, FileCode, Server, Terminal, GitBranch, Globe, Github ,  Tv } from "lucide-react";
 import AnimatedText from "./AnimatedText";
 import { Link } from "react-router-dom";
 import SkillCard from "./SkillCard";
@@ -121,7 +121,7 @@ const HeroSection = () => {
                   backgroundSize: "200% 200%"
                 }}
               >
-                Uday G
+                Uday Patel
               </motion.span>
             </motion.h1>
             
@@ -143,8 +143,8 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              Passionate about programming and software development with expertise in Python, JavaScript, and C++.
-              Building modern web applications using Node.js, React.js, and Next.js. Freelancer specializing in AI-powered solutions.
+              Passionate about programming and software development with expertise in Python, JavaScript.
+              Building modern web applications using Node.js, React.js. Freelancer specializing in AI-powered solutions.
             </motion.p>
             
             <motion.div 
@@ -225,50 +225,38 @@ const HeroSection = () => {
                   icon={Globe}
                   title="React.js"
                   description="UI Library"
-                  className="col-span-2 row-span-2"
+                  className="col-span-3 row-span-2"
                 />
-                
+                  <SkillCard 
+                  icon={Globe}
+                  title="Node.js"
+                  description="backend development"
+                  className="col-span-3 row-span-2"
+                />
+
+                  <SkillCard 
+                  icon={Code}
+                  title="tailwind css"
+                  description="Utility CSS framework"
+                  className="col-span-3 row-span-2"
+                />
+
                 <SkillCard 
                   icon={Database}
                   title="SQL"
                   description="Database"
-                  className="col-span-2 row-span-2"
-                />
-                
-                <SkillCard 
-                  icon={Terminal}
-                  title="C++"
-                  description="Systems programming"
-                  className="col-span-2 row-span-2"
-                />
-                
-                <SkillCard 
-                  icon={Server}
-                  title="Node.js"
-                  description="Backend development"
                   className="col-span-3 row-span-2"
                 />
                 
+              
                 <SkillCard 
-                  icon={Tv}
-                  title="UI/UX Design"
-                  description="Interface design & prototyping"
-                  className="col-span-3 row-span-2"
+                  icon={Github}
+                  title="Git Control"
+                  description="Deployement Of The Projects"
+                  className="col-span-6 row-span-2"
                 />
                 
-                <SkillCard 
-                  icon={GitBranch}
-                  title="AI & Machine Learning"
-                  description="Model development & deployment"
-                  className="col-span-3 row-span-2"
-                />
-                
-                <SkillCard 
-                  icon={Code}
-                  title="Next.js"
-                  description="React framework"
-                  className="col-span-3 row-span-2"
-                />
+            
               </div>
             </motion.div>
           </motion.div>

@@ -18,7 +18,7 @@ const SkillCard = ({ icon: Icon, title, description, className = "" }: SkillCard
     >
       <div className="flex items-center mb-2">
         <Icon className="w-5 h-5 mr-2 text-teal-400" />
-        <h3 className="text-xl font-semibold">{title}</h3>
+        <h3 className=" items-center text-xl fnt-semibold">{title}</h3>
       </div>
       <p className="text-sm text-muted-foreground">{description}</p>
     </motion.div>
