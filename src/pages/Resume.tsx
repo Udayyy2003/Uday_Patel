@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { AnimatedText } from "@/components/AnimatedText";
 import PrintableResume from "@/components/PrintableResume";
 import SkillsSection from "@/components/SkillsSection";
-import { 
-  Briefcase, 
-  GraduationCap, 
-  Code, 
+import {
+  Briefcase,
+  GraduationCap,
+  Code,
   Award,
   CheckCircle2,
   Brain,
@@ -36,16 +36,32 @@ const Resume = () => {
       duration: "2023 - 2026",
       gpa: "3.0/4.0",
       location: "Ahmedabad, India",
+      courses: [
+        "Web Development",
+        "Python Programming",
+        "Software Engineering",
+        "Database Management Systems",
+        "Data Structures & Algorithms",
+        "Introduction to AI & ML",
+      ],
     },
     {
-      institution: "K R Raval UCCH , Ahmedabad",
+      institution: "K R Raval UCCH, Ahmedabad",
       degree: "HSC",
       field: "Science Stream",
       duration: "2019 - 2021",
       gpa: "78%",
       location: "Ahmedabad, India",
+      courses: [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Computer Science",
+        "English"
+      ],
     },
   ];
+
 
   const experience = [
     {
@@ -66,111 +82,100 @@ const Resume = () => {
       duration: "Aprill 2024 - July 2024",
       description: "• Engaged as a student intern at my university, contributing to industry-aligned projects involving data analysis and monitoring, whiledeveloping strong practical skills in data management and tech applications",
       responsibilities: [
-          "Assisted in collecting, cleaning, and organizing datasets for ongoing research projects, ensuring data accuracy and consistency across multiple sources",
-         "Supported the development and maintenance of monitoring dashboards using spreadsheet tools and basic visualization software to track project metrics",
+        "Assisted in collecting, cleaning, and organizing datasets for ongoing research projects, ensuring data accuracy and consistency across multiple sources",
+        "Supported the development and maintenance of monitoring dashboards using spreadsheet tools and basic visualization software to track project metrics",
         "Collaborated with faculty advisors and team members to document technical processes, prepare progress reports.",
         "Optimized applications for maximum speed and scalability"
       ]
     },
-    
+
   ];
 
   const projects = [
     {
       title: "Resume Parsing",
       description: "Developed an AI-powered system to detect fraudulent activities in income tax filings using machine learning algorithms and data pattern analysis.",
-      technologies: ["Python", "Machine Learning", "AI", "Data Analysis", "TensorFlow"],
-      duration: "03/2023 - 04/2023",
-      type: "Open-source",
+      technologies: ["Python", "Flask", "AI", "SQL", "Javascript(For Admin Panel)"],
+      duration: "05/2025 - 06/2025",
+      type: "Company Personal Project",
       accomplishments: [
-        "Created custom algorithms to identify suspicious patterns in tax filings",
-        "Implemented a dashboard to visualize fraud detection metrics",
-        "Achieved 92% accuracy in identifying fraudulent transactions"
+        "Developed an end-to-end resume parsing and recruitment automation system using Python and NLP to extract structured candidate data from PDF and DOCX files",
+        "Implemented rule-based filtering, keyword matching, and ranking logic to automatically shortlist and prioritize candidates based on job requirements",
+        "Designed and integrated secure RESTful APIs to connect backend resume processing with a role-based HR admin panel",
+        "Automated the resume screening workflow, significantly reducing manual shortlisting time and improving hiring efficiency"
       ]
     },
     {
       title: "Robotic Interview System",
       description: "Built a deep learning model to detect and classify oral cancer stages from medical images, helping in early diagnosis and treatment planning.",
-      technologies: ["Python", "TensorFlow", "Neural Networks", "Computer Vision", "OpenCV"],
-      duration: "05/2023 - 08/2023",
-      type: "2nd Year Project",
+      technologies: ["Python", "Flask", "React", "SQL", "AI", "NLP"],
+      duration: "06/2025 - 07/2025",
+      type: "Company Personal Project",
       accomplishments: [
-        "Conducted data collection and preprocessing for oral cancer detection",
-        "Designed and implemented a machine learning model for image classification using CNNs",
-        "Achieved 89% accuracy in detecting early-stage oral cancer"
+        "Developed an AI-driven interview automation system to evaluate candidates after resume shortlisting, streamlining early-stage hiring processes",
+        "Built and integrated RESTful APIs to deliver dynamic interview questions to a React-based frontend and capture candidate responses in real time",
+        "Implemented a multi-level scoring mechanism using answer matching, keyword analysis, and semantic similarity for accurate performance evaluation",
+        "Integrated external knowledge sources, including the Python Wikipedia library, to validate candidate responses and ensure unbiased assessments"
       ]
+
     },
     {
       title: "Ai chat bot",
       description: "Developed an object detection and tracking system using OpenCV and KCF Tracker that can identify and follow objects in video streams.",
-      technologies: ["Python", "OpenCV", "Computer Vision", "AI"],
+      technologies: ["Python", "Flask", "React", "SQL", "OpenAI GPT-4 API", "Rasa NLU"],
       duration: "03/2023 - 04/2023",
-      type: "Open-source",
+      type: "Company Personal Project",
       accomplishments: [
-        "Developed an open-source AI project for object detection using encoded data",
-        "Utilized compatible video sources to recognize objects seen through a camera",
-        "Implemented real-time tracking with minimal latency"
+        "Automated HR support operations using an AI-powered chatbot to handle frequent employee queries efficiently",
+        "Implemented conversational AI using Flask, Rasa, and GPT-4 for intent-based and open-ended query handling",
+        "Built a real-time chat interface in React.js with persistent session storage using PostgreSQL",
+        "Prepared the system for deployment across Slack and internal portals to enable scalable HR support"
       ]
+
     },
-    {
-      title: "xyz",
-      description: "Created a machine learning model to analyze whether credit card transactions are fraudulent by identifying unusual patterns and anomalies.",
-      technologies: ["Python", "Machine Learning", "Data Science", "Statistical Analysis"],
-      duration: "01/2023 - 03/2023",
-      type: "Personal Project",
-      accomplishments: [
-        "Trained models on large datasets of transaction data",
-        "Implemented feature engineering to improve detection accuracy",
-        "Developed a real-time alert system for suspicious transactions"
-      ]
-    },
-    {
-      title: "abc",
-      description: "Built a Python package to run contextualized topic modeling with BERT embeddings, enabling more accurate text analysis and categorization.",
-      technologies: ["Python", "NLP", "BERT", "Machine Learning"],
-      duration: "11/2022 - 01/2023",
-      type: "Research Project",
-      accomplishments: [
-        "Created a reusable library for topic modeling tasks",
-        "Implemented BERT embeddings for improved contextual understanding",
-        "Published package with documentation for community use"
-      ]
-    },
+
   ];
 
   const certifications = [
     {
-      name: "API Prototyping Learning Path",
-      issuer: "Postman",
-      date: "December 2024",
-      skills: "API Prototyping, API Testing, API Documentation",
+      name: "Fundamentals of the Web Developement",
+      issuer: "Coursera",
+      date: "February 2024",
+      skills: "HTML5 , CSS, Basic Javascript,boostrap",
       credential: "PST-APL-2024"
     },
     {
-      name: "Career Essentials in Generative AI",
-      issuer: "Microsoft and LinkedIn",
-      date: "November 2024",
-      skills: "Generative AI, Prompt Engineering, LLM Applications",
+      name: "Introduction To Python Programing",
+      issuer: "Udemy",
+      date: "July 2024",
+      skills: "Basics and Advance Concepts Of python",
       credential: "MSLI-GAI-2024"
     },
     {
-      name: "Learning Microsoft Power BI",
-      issuer: "Infosys Springboard",
-      date: "November 2024",
-      skills: "Microsoft Power BI, Data Visualization, Business Intelligence",
-      credential: "ISB-PBI-2024"
+      name: "Flask ( Web Framework ) of Python",
+      issuer: "Udemy",
+      date: "August 2024",
+      skills: "Basics Of Flask",
+      credential: "MSLI-GAI-2024"
     },
     {
-      name: "Neural Networks and Deep Learning",
+      name: "Fundamentals Of SQL Database",
       issuer: "Great Learning",
-      date: "January 2024",
-      skills: "Neural Networks, Deep Learning, AI Architecture",
+      date: "November 2024",
+      skills: "Data Management, Manipulation, Analysis",
       credential: "GL-NNDL-2024"
+    },
+    {
+      name: "REST API Development with Python",
+      issuer: "Udemy",
+      date: "March 2025",
+      skills: "RESTful APIs, Flask, Backend Development, API Security",
+      credential: "API-PY-2025"
     },
     {
       name: "Real Life Machine Learning and Data Science Projects",
       issuer: "Udemy",
-      date: "November 2022",
+      date: "April 2025",
       skills: "Machine Learning, Data Science, Practical Implementation",
       credential: "UC-e1c70903-b810-4b6b-8749-eebd3345715"
     },
@@ -186,25 +191,26 @@ const Resume = () => {
   ];
 
   const resumeHighlights = [
-    { 
-      title: "AI & ML Specialist", 
-      description: "Specialized in machine learning algorithms and AI applications with practical implementation experience",
-      icon: <Brain className="h-8 w-8 text-brand-purple" />
+    {
+      title: "Web Developer",
+      description: "Experienced in building responsive and user-friendly web applications using React, HTML, CSS, and Tailwind CSS.",
+      icon: <Cpu className="h-8 w-8 text-brand-purple" />
     },
-    { 
-      title: "Full-Stack Developer", 
+    {
+      title: "Full-Stack Developer",
       description: "Proficient in both front-end and back-end technologies, creating complete web solutions",
       icon: <Code className="h-8 w-8 text-brand-purple" />
     },
-    { 
-      title: "Web Developer", 
-      description: "Experienced in building web applications using react framework and plain HTML and CSS",
-      icon: <Cpu className="h-8 w-8 text-brand-purple" />
-    },
-    { 
-      title: "Data Analyst", 
+
+    {
+      title: "Data Analyst",
       description: "Skilled in data analysis, visualization, and extracting actionable insights",
       icon: <Database className="h-8 w-8 text-brand-purple" />
+    },
+    {
+      title: "AI & Machine Learning Enthusiast",
+      description: "Actively learning AI and machine learning concepts with hands-on exposure to Python and data analysis through academic and personal projects.",
+      icon: <Brain className="h-8 w-8 text-brand-purple" />
     },
   ];
 
@@ -290,55 +296,15 @@ const Resume = () => {
             <div className="mt-4 pl-4 border-l-2 border-brand-purple/30">
               <h4 className="font-medium mb-2">Key Courses:</h4>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                {edu.institution.includes("Presidency") ? (
-                  <>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Artificial Intelligence & Machine Learning
-                    </li>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Data Structures & Algorithms
-                    </li>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Computer Vision Systems
-                    </li>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Web Development
-                    </li>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Database Management Systems
-                    </li>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Deep Learning
-                    </li>
-                  </>
-                ) : (
-                  <>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Physics
-                    </li>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Chemistry
-                    </li>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Mathematics
-                    </li>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Computer Science
-                    </li>
-                  </>
-                )}
+                {edu.courses.map((course, idx) => (
+                  <li key={idx} className="text-sm flex items-center">
+                    <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
+                    {course}
+                  </li>
+                ))}
               </ul>
             </div>
+
           </motion.div>
         ))}
       </motion.div>
@@ -419,7 +385,7 @@ const Resume = () => {
               </div>
             </div>
             <p className="text-muted-foreground mb-4">{project.description}</p>
-            
+
             <div className="mb-4">
               <h4 className="font-medium mb-2">Key Accomplishments:</h4>
               <ul className="space-y-2">
@@ -431,11 +397,11 @@ const Resume = () => {
                 ))}
               </ul>
             </div>
-            
+
             <div className="flex flex-wrap gap-2 mt-4">
               {project.technologies.map((tech) => (
-                <span 
-                  key={tech} 
+                <span
+                  key={tech}
                   className="text-xs py-1 px-3 bg-secondary rounded-full"
                 >
                   {tech}
@@ -537,11 +503,10 @@ const Resume = () => {
                   onClick={() => setActiveTab(tab.id)}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className={`flex items-center px-4 py-2 rounded-lg font-medium transition-colors backdrop-blur-sm border ${
-                    activeTab === tab.id
-                      ? "bg-brand-purple text-white border-brand-purple/50"
-                      : "bg-secondary/20 text-muted-foreground hover:bg-secondary/40 border-white/10"
-                  }`}
+                  className={`flex items-center px-4 py-2 rounded-lg font-medium transition-colors backdrop-blur-sm border ${activeTab === tab.id
+                    ? "bg-brand-purple text-white border-brand-purple/50"
+                    : "bg-secondary/20 text-muted-foreground hover:bg-secondary/40 border-white/10"
+                    }`}
                 >
                   {tab.icon}
                   <span className="ml-2">{tab.label}</span>

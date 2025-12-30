@@ -15,43 +15,45 @@ const Academics = () => {
   const education = [
     {
       id: 1,
-      institution: "Presidency University, Bengaluru",
-      degree: "Bachelor of Technology (B.Tech)",
-      field: "Computer Science & Engineering (Specialization in AI & ML)",
-      duration: "2021 - Present",
-      location: "Bengaluru, Karnataka",
+      institution: "K N University, Ahmedabad",
+      degree: "Bachelor of Computer Applications (BCA)",
+      field: "Computer Science & Engineering",
+      duration: "2023 - Present",
+      location: "Ahmedabad, Gujarat",
       cgpa: "In Progress",
       details: [
         "Specializing in Artificial Intelligence and Machine Learning",
-        "Key courses include Data Structures, Algorithms, Machine Learning",
+        "Key Subjects include Python, Java, React JS, Node JS, SQL",
         "Actively participating in research projects related to AI/ML"
       ]
     },
+   
     {
       id: 2,
-      institution: "MES Kishora Kendra",
-      degree: "Pre-University College",
-      field: "Science Stream",
-      duration: "2019 - 2021",
-      location: "Bengaluru, Karnataka",
-      cgpa: "8.5",
-      details: [
-        "Major subjects included Physics, Mathematics, Chemistry, Computer Science",
-        "Highlights: Advanced Mathematics & Computer Science",
-        "Developed strong foundation in scientific principles and programming"
-      ]
-    },
-    {
-      id: 3,
-      institution: "Nelamangala, Bengaluru",
+      institution: "K.R.RAVAL UCCH, Ahmedabad, Gujarat",
       degree: "Secondary High School",
-      field: "NCERT-based Curriculum",
-      duration: "2012 - 2019",
-      location: "Bengaluru, Karnataka",
-      cgpa: "9.09",
+      field: "Science Stream",
+      duration: "2018 - 2019",
+      location: "Ahmedabad, Gujarat",
+      cgpa: "78%",
       details: [
         "Strong foundation in Science",
         "Studied foundations of Mathematics"
+      ]
+    },
+    
+    {
+      id: 3,
+      institution: "K.R.RAVAL UCCH, Ahmedabad, Gujarat",
+      degree: "S.S.C.",
+      field: "",
+      duration: "2020 - 2021",
+      location: "Ahmedabad, Gujarat",
+      cgpa: "84%",
+      details: [
+        "Strong foundation in English",
+        "Studied foundations of Mathematics",
+        "Studied Other Core Subjects",
       ]
     }
   ];
@@ -88,16 +90,14 @@ const Academics = () => {
   ];
 
   const courseHighlights = [
-    "Data Structures and Algorithms",
-    "Machine Learning",
-    "Artificial Intelligence",
-    "Database Management Systems",
-    "Computer Networks",
-    "Operating Systems",
     "Web Technologies",
     "Software Engineering",
+    "Database Management Systems",
+    "Blockchain Technology",
+    "Computer Networks",
     "Cloud Computing",
-    "Blockchain Technology"
+    "Machine Learning",
+    "Artificial Intelligence"
   ];
 
   return (

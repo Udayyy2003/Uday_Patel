@@ -27,7 +27,7 @@ export const Layout = ({ children }: LayoutProps) => {
       <div className="fixed inset-0 z-0">
         <ParticleBackground />
       </div>
-      
+
       <Navbar />
       <main className="flex-grow relative z-10">
         {loading ? (
@@ -60,7 +60,7 @@ export const Layout = ({ children }: LayoutProps) => {
           </AnimatePresence>
         )}
       </main>
-      
+
       <footer className="w-full py-8 border-t border-muted relative z-10 backdrop-blur-md bg-black/20">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
@@ -95,9 +95,11 @@ export const Layout = ({ children }: LayoutProps) => {
                 >
                   <Linkedin className="h-5 w-5" />
                 </motion.a>
-              
+
                 <motion.a
-                  href="your email id "
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=udayp1298@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -105,6 +107,8 @@ export const Layout = ({ children }: LayoutProps) => {
                 >
                   <Mail className="h-5 w-5" />
                 </motion.a>
+
+
               </div>
             </div>
           </div>

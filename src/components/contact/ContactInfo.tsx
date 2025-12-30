@@ -8,7 +8,7 @@ const ContactInfo = () => {
       icon: <Mail className="h-5 w-5 text-brand-purple" />,
       title: "Email",
       details: "udayp1298@gmail.com",
-      link: "mailto:udayp1298@gmail.com",
+        link: "mailto:udayp1298@gmail.com"
     },
     {
       icon: <MapPin className="h-5 w-5 text-brand-purple" />,

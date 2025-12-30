@@ -44,7 +44,8 @@ const EducationCard = ({
           >{degree}</motion.h3>
         </div>
         
-        <div className="mb-4">
+        <div className="m
+        b-4">
           <div className="font-medium text-lg mb-1">{institution}</div>
           <p className="text-muted-foreground">{field}</p>
           

@@ -9,10 +9,10 @@ const PrintableResume = () => {
     const link = document.createElement("a");
     
     // Set the href to the resume PDF in the public folder
-    link.href = "/resume.pdf";
+    link.href = "/uday-resume.pdf";
     
     // Set the download attribute to suggest a filename
-    link.download = "uday-g-resume.pdf";
+    link.download = "uday-resume.pdf";
     
     // Append the link to the document
     document.body.appendChild(link);

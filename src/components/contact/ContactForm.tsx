@@ -102,7 +102,7 @@ const ContactForm = () => {
                   required
                   disabled={isSubmitting}
                   className="w-full pl-10 pr-4 py-2.5 bg-secondary text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-purple disabled:opacity-50 text-sm"
-                  placeholder="John Doe"
+                  placeholder="Enter Your Name  "
                   whileFocus={{ boxShadow: "0 0 0 3px rgba(155, 135, 245, 0.3)" }}
                 />
               </div>
@@ -121,7 +121,7 @@ const ContactForm = () => {
                   required
                   disabled={isSubmitting}
                   className="w-full pl-10 pr-4 py-2.5 bg-secondary text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-purple disabled:opacity-50 text-sm"
-                  placeholder="you@example.com"
+                  placeholder="Enter Your Email"
                   whileFocus={{ boxShadow: "0 0 0 3px rgba(155, 135, 245, 0.3)" }}
                 />
               </div>
