@@ -30,7 +30,7 @@ const Projects = () => {
       description: "Built an AI-powered recruitment automation system that parses resumes (PDF/DOCX), extracts structured data using NLP, and automatically ranks candidates based on job-specific criteria, significantly reducing manual screening effort.",
       image: "https://res.cloudinary.com/jerrick/image/upload/v1745831603/680f46b1ae6b31001d4369f3.png",
       tags: ["Python","React","NLP", "Resume Parsing", "Recruitment Automation"],
-      code: "https://github.com/oxBinaryBrain/An_Income_Tax_Fraud_Detection_Using_AI-ML",
+      code: "https://github.com/Udayyy2003/resume-parsing/",
       category: "ai"
     },
     {
@@ -48,7 +48,7 @@ const Projects = () => {
         "Semantic Analysis",
         "HR Automation"
       ],
-      code: "",
+      code: "https://github.com/Udayyy2003/robotic-interview-system",
       category: "ai"
     },
     {
@@ -66,7 +66,7 @@ const Projects = () => {
         "GPT",
                 "React"
       ],
-      code: "",
+      code: "https://github.com/Udayyy2003/AI-Chatbot",
       category: "ai"
     }
     ,
