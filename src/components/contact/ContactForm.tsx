@@ -44,6 +44,7 @@ const ContactForm = () => {
         user_id: null
       };
       
+      // Use the contactService to send data to Firebase
       const result = await contactService.insertMessage(messageData);
       
       if (result.error) {
@@ -70,6 +71,7 @@ const ContactForm = () => {
       }, 3000);
       
     } catch (error: any) {
+      console.error("Firebase Error:", error);
       toast({
         title: "Failed to send message",
         description: error.message || "An unexpected error occurred. Please try again.",

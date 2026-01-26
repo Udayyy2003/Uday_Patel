@@ -1,12 +1,13 @@
 
 // Firebase configuration
-// Replace these values with your actual Firebase project credentials
+// TODO: Replace these values with your actual Firebase project credentials
+// You can find these in the Firebase Console: Project Settings > General > Your apps > SDK setup and configuration
 export const firebaseConfig = {
-  apiKey: "AIzaSyCPqSPkTmIlQmbr8Oz0a7HYcvLYeReFZuU",
-  authDomain: "portfolio-v3-contact-form.firebaseapp.com",
-  projectId: "portfolio-v3-contact-form",
-  storageBucket: "portfolio-v3-contact-form.firebasestorage.app",
-  messagingSenderId: "175867265875",
-  appId: "1:175867265875:web:402a7ed5134f249e4b57a6",
-  measurementId: "G-8SMLZFG9B8"
+  apiKey: "AIzaSyDpwKru2lJg5Lav7C-mBL8CdyhULVQapa0",
+  authDomain: "my-portfolio-db-26fef.firebaseapp.com",
+  projectId: "my-portfolio-db-26fef",
+  storageBucket: "my-portfolio-db-26fef.firebasestorage.app",
+  messagingSenderId: "397974814554",
+  appId: "1:397974814554:web:16197ab6cc51fff6ca3d63",
+  measurementId: "G-WS1KHKQYGL"
 };
